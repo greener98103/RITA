@@ -1,0 +1,22 @@
+Package: RITA
+Type: Package
+Title: R for Itegrated Transiptomic Analysis
+Version: 0.1.0
+Author: Carl Fredrik Barrenas and Rich Green
+Maintainer: Rich Green <greener@uw.edu>
+Description: R's Integrative Transcriptomic Analysis (RITA). is the R package for ITA. ITA is based on large catalogues
+of published, respiratory tissue transcriptomic datasets (RNA-seq and microarray). Published data from lung tissues 
+include asthma, COPD, cancer, particle inhalation, smoking, fibrotic disease, fetal development, influenza, tuberculosis
+and coronaviruses (MERS, SARS, SARS-CoV-2). This amounts to a rich resource for discovering pathogenic mechanisms in
+viral infections, unaffected by limitations in known gene functions or disease pathways.
+  ITA can explore gene modules discovered in various lung pathologies, e.g. fibrosis or influenza infection. 
+License: GPL -3 
+Encoding: UTF-8
+LazyData: true
+
+
+Imports:
+	igraph,
+  dynamicTreeCut,
+  topGO,
+  GOSim
